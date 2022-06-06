@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://janet.co.kr/img/android-chrome-512x512.ico">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/93e14ad4d6.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>클론코딩_자격증넷_이창렬</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="banner">
+                <img src="https://janet.co.kr/html_demo/img/common/top_banner_0715.jpg">
+            </div>
+            <div class="container">
+                <div class="header01">
+                    <div class="tophader01">
+                        <div class="logo">
+                            <a href="#"><img src="https://janet.co.kr/html_demo/img/common/logo.png" alt="자격증넷"></a>
+                        </div>
+                        <div class="search">
+                            <div>
+                                <span>통합검색</span>
+                                <input type="text" placeholder="자격증 꿀팁 보러가기 #취준 #취뽀">
+                                <button type="button"><img src="https://janet.co.kr/html_demo/img/common/mainSrchBtn.png" alt="통합검색"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tophader02">
+                        <div class="hov1">
+                            <a href="#">
+                                <img src="https://janet.co.kr/img/common/header/member.png" alt="회원가입">
+                                <p>회원가입</p>
+                            </a>
+                        </div>
+                        <div class="hov1">
+                            <a href="#">
+                                <img src="https://janet.co.kr/img/common/header/login.png" alt="로그인">
+                                <p>로그인</p>
+                            </a>
+                        </div>
+                        <div class="hov1">
+                            <a href="#">
+                                <img src="https://janet.co.kr/img/common/header/company.png" alt="기업서비스">
+                                <p>기업서비스</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header02">
+                    <div class="lowheader01">
+                        <a href="#"><img src="https://janet.co.kr/img/common/header/gnb.png" alt="햄버거"></a>
+                        <span><a href="#">Top100</a></span>
+                        <span><a href="#">자격증정보</a></span>
+                        <span><a href="#">어학/공무원</a></span>
+                        <span><a href="#">자넷info</a></span>
+                        <span><a href="#">자넷톡</a></span>
+                    </div>
+                    <div class="lowheader02">
+                        <a href="#"><span>우리동네<strong>학원</strong></span></a>
+                        <a href="#"><span>커뮤니티</span></a>
+                        <a href="#"><span>자격증<strong>AI</strong></span></a>
+                    </div>
+                </div>
+                <!-- 고정헤더 -->
+                <div class="displaynon">
+                    <div class="fixheader">
+                        <div class="fixlowheader01">
+                            <a href="#"><img src="https://www.janet.co.kr/img/common/header/fix_logo.png" alt="자격증넷"></a>
+                            <a href="#"><img src="https://janet.co.kr/img/common/header/gnb.png" alt="햄버거"></a>
+                            <p><a href="#">Top100</a></p>
+                            <p><a href="#">자격증정보</a></p>
+                            <p><a href="#">어학/공무원</a></p>
+                            <p><a href="#">자넷info</a></p>
+                            <p><a href="#">자넷톡</a></p>
+                            <a href="#"><img src="https://www.janet.co.kr/img/common/header/aca.png" alt="우리동네학원"></a>
+                            <a href="#"><img src="https://www.janet.co.kr/img/common/header/commu.png" alt="커뮤니티"></a>
+                            <a href="#"><img src="https://www.janet.co.kr/img/common/header/ai.png" alt="자격증AI"></a>
+                        </div>
+                        <div class="fixlowheader02">
+                            <div>
+                                <a href="#">
+                                    <img src="https://janet.co.kr/img/common/header/member.png" alt="회원가입">
+                                    <p>회원가입</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="https://janet.co.kr/img/common/header/login.png" alt="로그인">
+                                    <p>로그인</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="https://janet.co.kr/img/common/header/company.png" alt="기업서비스">
+                                    <p>기업서비스</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="fixlowheader03">
+                            <div class="fixsrc">
+                                <img src="https://www.janet.co.kr/img/common/sch_bubble.png" alt="검색">
+                                <div class="fixsearch">
+                                    <input type="text" placeholder="검색어를 입력하세요">
+                                    <div class="cirbutton">
+                                        <button type="submit">
+                                            <i class="fa fa-search" style="color: white;"></i>
+                                        </button>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </header>
+        
+        <section class="section">
+            <!-- 바디1 -->
+            <div class="sldsection">
+                <div class="container">
+                    <div class="box01">
+                        <!-- first 슬라이드 -->
+                        <div class="swiper1">
+                            <div class="swiper-wrapper">
+                                <!-- first 슬라이드1 -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img src="https://janet.co.kr/img/common/main/banner/mainBn_top_01.png" alt="슬라이드1"></a>
+                                </div>
+                                <!-- first 슬라이드2 -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img src="https://janet.co.kr/img/common/main/banner/mainBn_top_02.png" alt="슬라이드1"></a>
+                                </div>
+                                <!-- first 슬라이드3 -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img src="https://janet.co.kr/img/common/main/banner/mainBn_top_03.png" alt="슬라이드1"></a>
+                                </div>
+                                <!-- first 슬라이드4 -->
+                                <div class="swiper-slide">
+                                    <a href="#"><img src="https://janet.co.kr/img/common/main/banner/mainBn_top_04.png" alt="슬라이드1"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box02">
+                        <!-- sec 슬라이드 -->
+                        <div class="swiper2">
+                            <div class="swiper-wrapper">
+                                <!-- sec 슬라이드1 -->
+                                <div class="swiper-slide">                           
+                                    <div class="subinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>자격증 정보</h1>
+                                        </div>
+                                        <a href="#">
+                                            <div class="grd01">
+                                                <img src="https://janet.co.kr/html_demo/img/main/inCrfc.png" alt="자격증정보">
+                                                <span>
+                                                    <p>자격증정보</p>
+                                                    <p>자격증정보의<br>모든 것</p>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="grd02">
+                                                <img src="https://janet.co.kr/html_demo/img/main/iCrtfc.png" alt="계열별정보">
+                                                <span>
+                                                    <p>계열별정보</p>
+                                                    <p>자격증에 대하여<br>알려드립니다.</p>
+                                                </span>
+                                            </div>
+                                        </a>    
+                                        <a href="#">
+                                            <div class="grd03">
+                                                <img src="https://janet.co.kr/html_demo/img/main/sCrtfc.png" alt="자격증 공모전">
+                                                <span>
+                                                    <p>자격증 공모전</p>
+                                                    <p>자격정 관련<br>공모전 정보<br>확인하기</p>
+                                                </span>
+                                            </div>
+                                        </a>          
+                                        <a href="#">
+                                            <div class="grd04">
+                                                <img src="https://janet.co.kr/html_demo/img/main/rCrtfc.png" alt="시험점수안내">
+                                                <span>
+                                                    <p>시험점수안내</p>
+                                                    <p>필기/실기<br>기본접수안내</p>
+                                                </span>
+                                            </div>
+                                        </a>         
+                                    </div>    
+                                </div>
+                                <!-- sec 슬라이드2 -->
+                                <div class="swiper-slide">                           
+                                    <div class="subinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>자넷Info</h1>
+                                        </div>
+                                        <a href="#">
+                                            <div class="grd01">
+                                                <img src="https://janet.co.kr/html_demo/img/main/bMagazine.png" alt="자넷메거진">
+                                                <span>
+                                                    <p>자넷메거진</p>
+                                                    <p>다양한 자격증<br>메거진</p>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="grd02">
+                                                <img src="https://janet.co.kr/html_demo/img/main/bNews.png" alt="뉴스">
+                                                <span>
+                                                    <p>뉴스</p>
+                                                    <p>오늘의<br>최신뉴스는?</p>
+                                                </span>
+                                            </div>
+                                        </a>    
+                                        <a href="#">
+                                            <div class="grd03">
+                                                <img src="https://janet.co.kr/html_demo/img/main/event.png" alt="청년지원정책">
+                                                <span>
+                                                    <p>청년지원정책</p>
+                                                    <p>다양한<br>지원정책을<br>한눈에!</p>
+                                                </span>
+                                            </div>
+                                        </a>          
+                                        <a href="#">
+                                            <div class="grd04">
+                                                <img src="https://janet.co.kr/html_demo/img/main/ad_info.png" alt="공인중개사 원서접수">
+                                                <span>
+                                                    <p>공인중개사<br>원서접수</p>
+                                                    <p>가장빠른 원서<br>접수꿀팁</p>
+                                                </span>
+                                            </div>
+                                        </a>         
+                                    </div>    
+                                </div>
+                                <!-- sec 슬라이드3 -->
+                                <div class="swiper-slide">                           
+                                    <div class="subinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>커뮤니티</h1>
+                                        </div>
+                                        <a href="#">
+                                            <div class="grd01">
+                                                <img src="https://janet.co.kr/html_demo/img/main/bBest.png" alt="베스트글">
+                                                <span>
+                                                    <p>베스트글</p>
+                                                    <p>자넷의 인기<br>베스트글 모음</p>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="grd02">
+                                                <img src="https://janet.co.kr/html_demo/img/main/hot_issue.png" alt="오늘의 핫이슈">
+                                                <span>
+                                                    <p>오늘의 핫이슈</p>
+                                                    <p>핫이슈 키워드가<br>궁굼하다면?</p>
+                                                </span>
+                                            </div>
+                                        </a>    
+                                        <a href="#">
+                                            <div class="grd03">
+                                                <img src="https://janet.co.kr/html_demo/img/main/bFree.png" alt="자유게시판">
+                                                <span>
+                                                    <p>자유게시판</p>
+                                                    <p>자유로운 주제를<br>나누는 공간</p>
+                                                </span>
+                                            </div>
+                                        </a>          
+                                        <a href="#">
+                                            <div class="grd04">
+                                                <img src="https://janet.co.kr/html_demo/img/main/bHumor.png" alt="유머게시판">
+                                                <span>
+                                                    <p>유머게시판</p>
+                                                    <p>나만의 유머를<br>소통해보세요</p>
+                                                </span>
+                                            </div>
+                                        </a>         
+                                    </div>    
+                                </div>
+                                <!-- sec 슬라이드4 -->
+                                <div class="swiper-slide">                           
+                                    <div class="subinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>추천</h1>
+                                        </div>
+                                        <a href="#">
+                                            <div class="grd01">
+                                                <img src="https://janet.co.kr/html_demo/img/main/ai_rcmd.png" alt="자넷 AI 추천">
+                                                <span>
+                                                    <p>자넷 AI 추천</p>
+                                                    <p>AI 분석을 통한<br>자격증 추천</p>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="grd02">
+                                                <img src="https://janet.co.kr/html_demo/img/main/jprs_test.png" alt="JPRS추천테스트">
+                                                <span>
+                                                    <p>JPRS추천<br>테스트</p>
+                                                    <p>내성향에 맞는<br>자격증은?</p>
+                                                </span>
+                                            </div>
+                                        </a>    
+                                        <a href="#">
+                                            <div class="grd03">
+                                                <img src="https://janet.co.kr/html_demo/img/main/job_test.png" alt="직업성향 테스트">
+                                                <span>
+                                                    <p>직업성향<br>테스트</p>
+                                                    <p>내게 맞는<br>직업은?</p>
+                                                </span>
+                                            </div>
+                                        </a>          
+                                        <a href="#">
+                                            <div class="grd04">
+                                                <img src="https://janet.co.kr/html_demo/img/main/big5_test.png" alt="Oxford BIG5 테스트">
+                                                <span>
+                                                    <p>Oxford BIG5<br>테스트</p>
+                                                    <p>자세한<br>직업분석이<br>필요하다면?</p>
+                                                </span>
+                                            </div>
+                                        </a>         
+                                    </div>    
+                                </div>
+                                <!-- sec 슬라이드5 -->
+                                <div class="swiper-slide">                           
+                                    <div class="subinfo subinfo_sub">
+                                        <div class="topinfo grdtop">
+                                            <h1>자넷톡</h1>
+                                        </div>
+                                        <a href="#">
+                                            <div class="grd01 grd01_01">
+                                                <img src="https://janet.co.kr/html_demo/img/main/bQna.png" alt="자넷 질문톡">
+                                                <span>
+                                                    <p>자넷 질문톡</p>
+                                                    <p>궁굼증을 풀어드려요!</p>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="grd02 grd02_01">
+                                                <img src="https://janet.co.kr/html_demo/img/main/janettv.png" alt="자넷 TV">
+                                                <span>
+                                                    <p>자넷 TV</p>
+                                                    <p>자넷의 영상컨텐츠<br>살펴보기</p>
+                                                </span>
+                                            </div>
+                                        </a>    
+                                        <a href="#">
+                                            <div class="grd03 grd03_01">
+                                                <img src="https://janet.co.kr/html_demo/img/main/faq.png" alt="FAQ">
+                                                <span>
+                                                    <p>FAQ</p>
+                                                    <p>자넷에 대해<br>궁굼할땐?</p>
+                                                </span>
+                                            </div>
+                                        </a>                  
+                                    </div>    
+                                </div>
+                                <!-- sec 슬라이드6 -->
+                                <div class="swiper-slide">                           
+                                    <div class="subinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>우리동네 학원은 ?</h1>
+                                        </div>
+                                        <a href="#">
+                                            <div class="grd01">
+                                                <img src="https://janet.co.kr/html_demo/img/main/jnTown1.png" alt="맞춤학원검색">
+                                                <span>
+                                                    <p>맞춤학원검색</p>
+                                                    <p>나에게 맞는<br>맞춤 학원은?</p>
+                                                </span>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="grd02">
+                                                <img src="https://janet.co.kr/html_demo/img/main/jnTown2.png" alt="우리동네학원 info">
+                                                <span>
+                                                    <p>우리동네학원<br>info</p>
+                                                    <p>우리동네 학원<br>소식 살펴보기!</p>
+                                                </span>
+                                            </div>
+                                        </a>    
+                                        <a href="#">
+                                            <div class="grd03">
+                                                <img src="https://janet.co.kr/html_demo/img/main/jnTown3.png" alt="학원찾아드림">
+                                                <span>
+                                                    <p>학원찾아드림</p>
+                                                    <p>학원을 비교해서<br>선택해보세요!</p>
+                                                </span>
+                                            </div>
+                                        </a>          
+                                        <a href="#">
+                                            <div class="grd04">
+                                                <img src="https://janet.co.kr/html_demo/img/main/jnTown4.png" alt="지도보기">
+                                                <span>
+                                                    <p>지도보기</p>
+                                                    <p>내주면 자격증<br>학원 찾아보기</p>
+                                                </span>
+                                            </div>
+                                        </a>         
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev">
+                                <i class="fa-solid fa-angle-left fa-xs" style="color:#8e8cfd"></i>
+                            </div>
+                            <div class="swiper-button-next">
+                                <i class="fa-solid fa-angle-right fa-xs" style="color:#8e8cfd"></i>
+                            </div>
+                        </div>
+                        <div class="grdlow">
+                            <img src="https://janet.co.kr/data/ebslider/eb4_basic/img/d0942d969f0a37cb73a46db345ea874b.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box03">
+                        <!-- lst 슬라이드 -->
+                        <div class="swiper3">
+                            <div class="swiper-wrapper">
+                                <!-- lst 슬라이드1 -->
+                                <div class="swiper-slide">
+                                    <div class="lastinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>기사 인기순위</h1>
+                                        </div>
+                                        <ul class="poplist">
+                                            <li><a href="#"><p>전기기사</p></a></li>
+                                            <li><a href="#"><p>산업안전기사</p></a></li>
+                                            <li><a href="#"><p>위험물산업기사</p></a></li>
+                                            <li><a href="#"><p>전기산업기사</p></a></li>
+                                            <li><a href="#"><p>건축기사</p></a></li>
+                                            <li><a href="#"><p>건설안전기사</p></a></li>
+                                            <li><a href="#"><p>소방설비기사(전기분야)</p></a></li>
+                                            <li><a href="#"><p>제품디자인산업기사</p></a></li>
+                                            <li><a href="#"><p>건설기계정비산업기사</p></a></li>
+                                            <li><a href="#"><p>사출금형산업기사</p></a></li>
+                                        </ul>
+                                    </div>    
+                                </div>
+                                <!-- lst 슬라이드2 -->
+                                <div class="swiper-slide">
+                                    <div class="lastinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>기능장 인기순위</h1>
+                                        </div>
+                                        <ul class="poplist">
+                                            <li><a href="#"><p>위험물기능장</p></a></li>
+                                            <li><a href="#"><p>전기기능장</p></a></li>
+                                            <li><a href="#"><p>가스기능장</p></a></li>
+                                            <li><a href="#"><p>용접기능장</p></a></li>
+                                            <li><a href="#"><p>기계가공기능장</p></a></li>
+                                            <li><a href="#"><p>건설기계정비기능장</p></a></li>
+                                            <li><a href="#"><p>건축일반시공기능장</p></a></li>
+                                            <li><a href="#"><p>귀금속가공기능장</p></a></li>
+                                            <li><a href="#"><p>금형제작기능장</p></a></li>
+                                            <li><a href="#"><p>판금제관기능장</p></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- lst 슬라이드3 -->
+                                <div class="swiper-slide">
+                                    <div class="lastinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>베스트 글 Top 10</h1>
+                                        </div>
+                                        <ul class="poplist">
+                                            <li><a href="#"><p>2급 생활스포츠 지도사 2급 생활스포츠 지도사</p></a></li>
+                                            <li><a href="#"><p>직업 적성 결과</p></a></li>
+                                            <li><a href="#"><p>우리강디좀 봐주세요우리강디좀 봐주세요</p></a></li>
+                                            <li><a href="#"><p>동물들은 죽음의 공포를</p></a></li>
+                                            <li><a href="#"><p>얼마전에 장르만</p></a></li>
+                                            <li><a href="#"><p>유튜브에서</p></a></li>
+                                            <li><a href="#"><p>강남역 근처</p></a></li>
+                                            <li><a href="#"><p>20대 카톡방</p></a></li>
+                                            <li><a href="#"><p>후기를 입력해보세요 후기를 입력해보세요</p> </a></li>
+                                            <li><a href="#"><p>혹시 아직 에어컨</p></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- lst 슬라이드4 -->
+                                <div class="swiper-slide">
+                                    <div class="lastinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>핫클릭 Top 10</h1>
+                                        </div>
+                                        <ul class="poplist">
+                                            <li><a href="#"><p>2급 생활스포츠 지도사 2급 생활스포츠 지도사</p></a></li>
+                                            <li><a href="#"><p>직업 적성 결과</p></a></li>
+                                            <li><a href="#"><p>우리강디좀 봐주세요</p></a></li>
+                                            <li><a href="#"><p>동물들은 죽음의 공포를</p></a></li>
+                                            <li><a href="#"><p>얼마전에 장르만</p></a></li>
+                                            <li><a href="#"><p>유튜브에서유튜브에서유튜브에서</p></a></li>
+                                            <li><a href="#"><p>강남역 근처</p></a></li>
+                                            <li><a href="#"><p>20대 카톡방</p></a></li>
+                                            <li><a href="#"><p>후기를 입력해보세요</p> </a></li>
+                                            <li><a href="#"><p>혹시 아직 에어컨</p></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- lst 슬라이드5 -->
+                                <div class="swiper-slide">
+                                    <div class="lastinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>기능사 인기순위</h1>
+                                        </div>
+                                        <ul class="poplist">
+                                            <li><a href="#"><p>한식조리기능사</p></a></li>
+                                            <li><a href="#"><p>지게차운전기능사</p></a></li>
+                                            <li><a href="#"><p>전기기능사</p></a></li>
+                                            <li><a href="#"><p>위험물기능사</p></a></li>
+                                            <li><a href="#"><p>지적기능사</p></a></li>
+                                            <li><a href="#"><p>광산보안기능사</p></a></li>
+                                            <li><a href="#"><p>방사선비파괴검사기능사</p></a></li>
+                                            <li><a href="#"><p>수산양식기능사</p></a></li>
+                                            <li><a href="#"><p>반도체장비유지보수기능사</p></a></li>
+                                            <li><a href="#"><p>영사기능사</p></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- lst 슬라이드6 -->
+                                <div class="swiper-slide">
+                                    <div class="lastinfo">
+                                        <div class="topinfo grdtop">
+                                            <h1>산업기사 인기순위</h1>
+                                        </div>
+                                        <ul class="poplist">
+                                            <li><a href="#"><p>위험물산업기사</p></a></li>
+                                            <li><a href="#"><p>전기산업기사</p></a></li>
+                                            <li><a href="#"><p>제품디자인산업기사</p></a></li>
+                                            <li><a href="#"><p>건설기계정비산업기사</p></a></li>
+                                            <li><a href="#"><p>사출금형산업기사</p></a></li>
+                                            <li><a href="#"><p>영사산업기사</p></a></li>
+                                            <li><a href="#"><p>철도신호산업기사</p></a></li>
+                                            <li><a href="#"><p>시각디자인산업기사</p></a></li>
+                                            <li><a href="#"><p>소방설비산업기사(기계분야)</p></a></li>
+                                            <li><a href="#"><p>생산자동화산업기사</p></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slidenav03">
+                                <div class="swiper-button-prev swiper-size">
+                                    <i class="fa-solid fa-angle-left fa-xs" style="color:#8e8cfd"></i>
+                                </div>
+                                <div class="swiper-button-next">
+                                    <i class="fa-solid fa-angle-right fa-xs" style="color:#8e8cfd"></i>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 바디2 -->
+            <div class="sldsection2">
+                <div class="container">
+                    <div class="swiper4">
+                        <div class="swiper-wrapper">
+                            <!-- first 슬라이드1 -->
+                            <div class="swiper-slide">
+                                <a href="#"><img src="https://janet.co.kr/html_demo/img/main/MainBn_scroll_06.png" alt="슬라이드"></a>
+                            </div>
+                            <!-- first 슬라이드2 -->
+                            <div class="swiper-slide">
+                                <a href="#"><img src="https://janet.co.kr/html_demo/img/main/MainBn_scroll_01.png" alt="슬라이드"></a>
+                            </div>
+                            <!-- first 슬라이드3 -->
+                            <div class="swiper-slide">
+                                <a href="#"><img src="https://janet.co.kr/html_demo/img/main/MainBn_scroll_02.png" alt="슬라이드"></a>
+                            </div>
+                            <!-- first 슬라이드4 -->
+                            <div class="swiper-slide">
+                                <a href="#"><img src="https://janet.co.kr/html_demo/img/main/MainBn_scroll_03.png" alt="슬라이드"></a>
+                            </div>
+                            <!-- first 슬라이드5 -->
+                            <div class="swiper-slide">
+                                <a href="#"><img src="https://janet.co.kr/html_demo/img/main/MainBn_scroll_04.png" alt="슬라이드"></a>
+                            </div>
+                            <!-- first 슬라이드6 -->
+                            <div class="swiper-slide">
+                                <a href="#"><img src="https://janet.co.kr/html_demo/img/main/MainBn_scroll_06.png" alt="슬라이드"></a>
+                            </div>
+                        </div>
+                        <div class="slidenav03">
+                            <div class="swiper-button-prev">
+                                <i class="fa-solid fa-angle-left fa-lg" style="color:#aaa"></i>
+                            </div>
+                            <div class="swiper-button-next">
+                                <i class="fa-solid fa-angle-right fa-lg" style="color:#aaa"></i>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <!-- 바디3 -->
+            <div class="keyword">
+                <div class="container">
+                    <div class="hotkwd">
+                        <img src="https://janet.co.kr/img/common/main/m_main/hot_keyword.png" alt="">
+                        <span><strong>HOT</strong>키워드</span><span class="lite">TOP20</span>
+                    </div>
+                    <div class="hotmenu" id="hotmenu">
+                        <a href="#">
+                            <span class="hidden">
+                                <i class="fa-solid fa-plus fa-lgx"></i>
+                            </span>
+                            <div class="kwdbox1 kb">
+                                <div class="topbox">
+                                    <div class="clash cl1">
+                                        <h1 class="h1"></h1>
+                                        <h5>D-11</h5>
+                                        <img src="https://janet.co.kr/data/licenseitem/155/hotKeyword_02.jpg" alt="토익">
+                                    </div>
+                                </div>
+                                <div class="lowbox">
+                                    <div class="nofade">
+                                        <div class="flex">
+                                            <h2>시행기관 :</h2>
+                                            <h2 class="h2"></h2>      
+                                        </div>
+                                        <div class="flex">
+                                            <h3>시험일 :</h3>
+                                            <h3 class="h3"></h3>
+                                        </div>
+                                    </div>
+                                    <div class="fade">
+                                        <hr>
+                                        <p>
+                                            <span>유형 :</span>
+                                            <span>464회</span>
+                                        </p>
+                                        <p>
+                                            <span>접수기관 :</span>
+                                            <span>2055 04 12</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <span class="hidden">
+                                <i class="fa-solid fa-plus fa-lgx"></i>
+                            </span>
+                            <div class="kwdbox2 kb">
+                                <div class="topbox">
+                                    <div class="clash cl2">
+                                        <h1 class="h1"></h1>
+                                        <h5>D-11</h5>
+                                        <img src="https://janet.co.kr/data/licenseitem/144/hotKeyword_03.jpg" alt="한국사능력검정시험">
+                                    </div>
+                                </div>
+                                <div class="lowbox">
+                                    <div class="nofade">
+                                        <div class="flex">
+                                            <h2>시행기관 :</h2>
+                                            <h2 class="h2"></h2>      
+                                        </div>
+                                        <div class="flex">
+                                            <h3>시험일 :</h3>
+                                            <h3 class="h3"></h3>
+                                        </div>
+                                    </div>
+                                    <div class="fade">
+                                        <hr>
+                                        <p>
+                                            <span>유형 :</span>
+                                            <span>464회</span>
+                                        </p>
+                                        <p>
+                                            <span>접수기관 :</span>
+                                            <span>2055 04 12</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <span class="hidden">
+                                <i class="fa-solid fa-plus fa-lgx"></i>
+                            </span>
+                            <div class="kwdbox3 kb">
+                                <div class="topbox">
+                                    <div class="clash cl3">
+                                        <h1 class="h1"></h1>
+                                        <h5>D-11</h5>
+                                        <img src="https://janet.co.kr/data/licenseitem/91/hotKeyword_11.jpg" alt="전기기사">
+                                    </div>
+                                </div>
+                                <div class="lowbox">
+                                    <div class="nofade">
+                                        <div class="flex">
+                                            <h2>시행기관 :</h2>
+                                            <h2 class="h2"></h2>      
+                                        </div>
+                                        <div class="flex">
+                                            <h3>시험일 :</h3>
+                                            <h3 class="h3"></h3>
+                                        </div>
+                                    </div>
+                                    <div class="fade">
+                                        <hr>
+                                        <p>
+                                            <span>유형 :</span>
+                                            <span>464회</span>
+                                        </p>
+                                        <p>
+                                            <span>접수기관 :</span>
+                                            <span>2055 04 12</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <span class="hidden">
+                                <i class="fa-solid fa-plus fa-lgx"></i>
+                            </span>
+                            <div class="kwdbox4 kb">
+                                <div class="topbox">
+                                    <div class="clash cl4">
+                                        <h1 class="h1"></h1>
+                                        <h5>D-11</h5>
+                                        <img src="https://janet.co.kr/data/licenseitem/331/hotKeyword_05.jpg" alt="공인중개사">
+                                    </div>
+                                </div>
+                                <div class="lowbox">
+                                    <div class="nofade">
+                                        <div class="flex">
+                                            <h2>시행기관 :</h2>
+                                            <h2 class="h2"></h2>      
+                                        </div>
+                                        <div class="flex">
+                                            <h3>시험일 :</h3>
+                                            <h3 class="h3"></h3>
+                                        </div>
+                                    </div>
+                                    <div class="fade">
+                                        <hr>
+                                        <p>
+                                            <span>유형 :</span>
+                                            <span>464회</span>
+                                        </p>
+                                        <p>
+                                            <span>접수기관 :</span>
+                                            <span>2055 04 12</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <span class="hidden">
+                                <i class="fa-solid fa-plus fa-lgx"></i>
+                            </span>
+                            <div class="kwdbox5 kb">
+                                <div class="topbox">
+                                    <div class="clash cl5">
+                                        <h1 class="h1"></h1>
+                                        <h5>D-11</h5>
+                                        <img src="https://janet.co.kr/data/licenseitem/96/hotKeyword_13.jpg" alt="산업안전기사">
+                                    </div>
+                                </div>
+                                <div class="lowbox">
+                                    <div class="nofade">
+                                        <div class="flex">
+                                            <h2>시행기관 :</h2>
+                                            <h2 class="h2"></h2>      
+                                        </div>
+                                        <div class="flex">
+                                            <h3>시험일 :</h3>
+                                            <h3 class="h3"></h3>
+                                        </div>
+                                    </div>
+                                    <div class="fade">
+                                        <hr>
+                                        <p>
+                                            <span>유형 :</span>
+                                            <span>464회</span>
+                                        </p>
+                                        <p>
+                                            <span>접수기관 :</span>
+                                            <span>2055 04 12</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <span class="hidden">
+                                <i class="fa-solid fa-plus fa-lgx"></i>
+                            </span>
+                            <div class="kwdbox6 kb">
+                                <div class="topbox">
+                                    <div class="clash cl6">
+                                        <h1 class="h1"></h1>
+                                        <h5>D-11</h5>
+                                        <img src="https://janet.co.kr/data/licenseitem/145/.6rO17Ya17ZWc6rWt7Ja066mU7J24.jpg" alt="KBS한국어능력시험">
+                                    </div>
+                                </div>
+                                <div class="lowbox">
+                                    <div class="nofade">
+                                        <div class="flex">
+                                            <h2>시행기관 :</h2>
+                                            <h2 class="h2"></h2>      
+                                        </div>
+                                        <div class="flex">
+                                            <h3>시험일 :</h3>
+                                            <h3 class="h3"></h3>
+                                        </div>
+                                    </div>
+                                    <div class="fade">
+                                        <hr>
+                                        <p>
+                                            <span>유형 :</span>
+                                            <span>464회</span>
+                                        </p>
+                                        <p>
+                                            <span>접수기관 :</span>
+                                            <span>2055 04 12</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <span class="hidden">
+                                <i class="fa-solid fa-plus fa-lgx"></i>
+                            </span>
+                            <div class="kwdbox7 kb">
+                                <div class="topbox">
+                                    <div class="clash cl7">
+                                        <h1 class="h1"></h1>
+                                        <h5>D-11</h5>
+                                        <img src="https://janet.co.kr/data/licenseitem/1622601017/7IKs7ZqM67O17KeA7IKs66mU7J24.jpg" alt="요양보호사">
+                                    </div>
+                                </div>
+                                <div class="lowbox">
+                                    <div class="nofade">
+                                        <div class="flex">
+                                            <h2>시행기관 :</h2>
+                                            <h2 class="h2"></h2>      
+                                        </div>
+                                        <div class="flex">
+                                            <h3>시험일 :</h3>
+                                            <h3 class="h3"></h3>
+                                        </div>
+                                    </div>
+                                    <div class="fade">
+                                        <hr>
+                                        <p>
+                                            <span>유형 :</span>
+                                            <span>464회</span>
+                                        </p>
+                                        <p>
+                                            <span>접수기관 :</span>
+                                            <span>2055 04 12</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <span class="hidden">
+                                <i class="fa-solid fa-plus fa-lgx"></i>
+                            </span>
+                            <div class="kwdbox8 kb">
+                                <div class="topbox">
+                                    <div class="clash cl8">
+                                        <h1 class="h1"></h1>
+                                        <h5>D-11</h5>
+                                        <img src="https://janet.co.kr/data/licenseitem/176/hotKeyword_24.jpg" alt="ITQ">
+                                    </div>
+                                </div>
+                                <div class="lowbox">
+                                    <div class="nofade">
+                                        <div class="flex">
+                                            <h2>시행기관 :</h2>
+                                            <h2 class="h2"></h2>      
+                                        </div>
+                                        <div class="flex">
+                                            <h3>시험일 :</h3>
+                                            <h3 class="h3"></h3>
+                                        </div>
+                                    </div>
+                                    <div class="fade">
+                                        <hr>
+                                        <p>
+                                            <span>유형 :</span>
+                                            <span>464회</span>
+                                        </p>
+                                        <p>
+                                            <span>접수기관 :</span>
+                                            <span>2055 04 12</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 사이드 바 -->
+            <div class="topBtn">
+                <div>
+                    <a href="#"><img src="https://janet.co.kr/html_demo/img/main/2022_notice.jpg" alt="2022 자격검정 시행공고"></a>
+                </div>
+                <div class="fixline1">
+                    <a href="#"><img src="https://janet.co.kr/html_demo/img/common/q_ai.jpg" alt="AI"></a>
+                    <a href="#"><img src="https://janet.co.kr/html_demo/img/common/jprs_bn0818.jpg" alt="JPRS"></a>
+                </div>
+                <div class="fixline2">
+                    <a href="#">
+                        <img src="https://janet.co.kr/html_demo/img/common/quick_img1.png" alt="자격증 정보">
+                        <p>자격증정보</p>
+                        <hr>
+                    </a>
+                    <a href="#">
+                        <img src="https://janet.co.kr/html_demo/img/common/quick_img2.png" alt="어학/공무원">
+                        <p>어학/공무원</p>
+                        <hr>
+                    </a>  
+                    <a href="#">
+                        <img src="https://janet.co.kr/html_demo/img/common/quick_img3.png" alt="자넷톡">
+                        <p>자넷톡</p>
+                        <hr>
+                    </a>
+                    <a href="#">
+                        <img src="https://janet.co.kr/html_demo/img/common/quick_img4.png" alt="커뮤니티">
+                        <p>커뮤니티</p><br>
+                    </a>        
+                </div>
+                <div>
+                    <a href="#"><img src="https://janet.co.kr/data/ebslider/eb4_basic/img/c2a99d7037b435b83edaa278df099070.jpg" alt="직업성향테스트"></a>
+                </div>
+                <div class="fixicon">
+                    <a href=“#”>
+                        <i class="fa-solid fa-angle-up fa-1.5x"></i>
+                        <p>top</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="noback"></div>
+    </div>
+
+    <!-- slide 이벤트 -->
+    <script src="./js/swiper.js"></script>
+
+    <!-- hot 키워드 hover이벤트 -->
+    <script src="./js/keywdHover.js"></script>
+
+    <!-- json 처리구분 -->
+    <script src="./js/jsonImp.js"></script>
+
+    <!-- 스크롤 바 -->
+    <script src="./js/sidebar.js"></script>
+
+    <!-- header 고정 -->
+    <script src="./js/headerfix.js"></script>
+    
+    <!-- fix상태 통합검색 -->
+    <script src="./js/searchfix.js"></script> 
+
+    <!-- normal상태 통합검색 -->
+    <script src="./js/searchnml.js"></script>
+
+</body>
+</html>
